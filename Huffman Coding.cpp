@@ -156,8 +156,16 @@ minHeap::minHeap()
   print();
 }
 
+
+// Начало главного кода
+
+
 int min(node *a, node *b)
 {if (a->freq <= b->freq) return a->freq; 		else return b->freq;}
+
+
+// Конец глвного кода
+
 
 void swap(BinaryTree &a, BinaryTree &b)
 {BinaryTree c=a;		a=b;		b=c;}
